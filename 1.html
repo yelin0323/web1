@@ -3,22 +3,37 @@
 <head>
   <title> Web Programming </title>
   <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-170286384-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-170286384-1');
+</script>
 </head>
 
 
 <body>
   <h1><a href="index.html">WEB</a></h1>
-  <ol>
-    <li><a href="1.html">HTML</a></li>
-    <li><a href="2.html">CSS</a></li>
-    <li><a href="3.html">JavaScript</a></li>
-  </ol>
-  <h2><a href="http://www.w3.org/" target="_blank" title="W3C">HTML</a> 공부 계획</h2>
-  Let's practice <strong> <u>HTML</u> </strong> hard and make a web.
+  <div id="grid">
+    <ol>
+      <li><a href="1.html" style="color:red">HTML</a></li>
+      <li><a href="2.html">CSS</a></li>
+      <li><a href="3.html">JavaScript</a></li>
+    </ol>
+    <div id="article">
+    <h2><a href="http://www.w3.org/" target="_blank" title="W3C">HTML</a> 공부 계획</h2>
+    Let's practice <strong> <u>HTML</u> </strong> hard and make a web.
 
-  <p>On June 19, 2020, we will learn HTML basics.</p>
-  <img src="coding.jpg" width = "100%">
-
-  <p style="margin-top:15px">On June 20, 2020, we will learn HTML application.</p>
+    <p>On June 19, 2020, we will learn HTML basics.</p>
+    <p>
+    <img src="coding.jpg" width = "30%" height="30%" align = "left">
+    </p>
+    <p style="margin-top:15px">On June 20, 2020, we will learn HTML application.</p>
+  </div>
+  </div>
 </body>
 </html>
